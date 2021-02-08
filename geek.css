@@ -1,0 +1,135 @@
+
+@import url('https://fonts.googleapis.com/css?family=Nunito&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Hanalei&display=swap');
+:root {
+    --editor-border: #818181;
+  }
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+  h2 {
+    font-family: 'Hanalei', cursive;
+    margin-left: 10%;
+    font-weight: bold;
+    color: #ff6700;
+    font-size: 50px;
+    
+  }
+  h3{
+    width: max-content;
+    font-family: 'Nunito',sans-serif;
+    transition: .2s;
+    color: #ff6700;  
+  }
+
+  .top {
+    height: 6%;
+    width:100%;
+    margin-top: 0px auto;
+    margin-bottom: 0px;
+    background-color: #ffffff;
+    background-position: 10px;
+    box-shadow: 0 0 12px #e6e6e6;
+    
+    top:0px;
+  }
+  .left{
+      position: absolute;
+      margin-top: 9%;
+      float: left;
+      width: 40%;
+      
+  }
+  .right{
+    position: absolute;
+    margin-top: 12% ;
+    margin-left: 60%;
+    background-color: #ffffff;
+    box-shadow: 0 0 15px #e6e6e6;
+    width: 35%;
+    height: 50%;
+    
+    overflow-y: scroll;
+    padding: 1em;
+    border-radius: 4px;
+  }
+
+  input{
+    padding: 6px 4px;
+    width:75%;
+    outline: none;
+  }
+  #add{
+      border-color: #ff6700 ;
+  }
+  
+  #btn {
+    width: 10%;
+    height: 8%;
+    margin: 1%;
+    border: 0;
+    font-size: 20px ;
+    padding: 0.3em;
+    border: #575757;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6700;
+     ;
+  }
+  .element-list{
+    height: 90%;
+    
+    overflow-y: scroll;
+}
+video{
+  outline: none;
+}
+.video{
+    position:absolute ;
+    margin-left :40%;
+    margin-top: 50%;
+    width: 10%;
+}
+.footer{
+    position: absolute;
+    margin-left :40%;
+   vertical-align: 20%;
+}
+#clear{
+    width: 7vh;
+    margin: 3%;
+    border: 0;
+    font-size: 15px ;
+   
+    padding: 0.5em;
+    border: #575757;
+    color: white;
+    border-radius: 5px;
+    background-color: #ff6700;  
+}
+
+ul{
+    padding: 15px;
+   
+}
+li{
+    list-style: none;
+    padding: 10px 5px;
+    background-color: #fff;
+    margin: 12px 0;
+    box-shadow: 0 2px 8px rgba(0,0,0,.16);
+    border-radius: 3px;
+    transition: .5s;
+}
+button:hover{
+    background-color: #fa9049 !important;
+}
+li:hover{
+    background-color: #e0e0e0;
+}
+.checked{
+    text-decoration: line-through;
+    background-color: #e0e0e0;
+}
